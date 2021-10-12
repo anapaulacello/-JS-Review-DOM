@@ -59,13 +59,7 @@ function addObjectList(){
     body.appendChild(newUl);
 }  
 
-//TODO
-/* function borrarUltimo(lista){
-    
-    lista.pop();
-    console.log(lista);
-    
-} */
+
 let primero=countriesTwo.find(id===0)
 
 document.querySelector('.eliminar-ultimo').addEventListener('click',countriesTwo.pop());
